@@ -1,0 +1,657 @@
+/* =========================================================
+   PAPER & PETALS - STATIONERY SHOP
+   Complete CSS File
+   ========================================================= */
+
+
+/* =========================
+   GENERAL
+   ========================= */
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #fce7ef;
+    color: #493d38;
+}
+
+
+/* =========================
+   NAVIGATION BAR
+   ========================= */
+
+.navbar {
+    width: 100%;
+    height: 75px;
+    padding: 0 7%;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    background-color: #fff9fb;
+    border-bottom: 1px solid #f0d5df;
+
+    position: sticky;
+    top: 0;
+    z-index: 100;
+}
+
+.logo {
+    font-size: 25px;
+    font-weight: bold;
+    color: #79545d;
+}
+
+.nav-links {
+    display: flex;
+    align-items: center;
+}
+
+.nav-links a {
+    margin-left: 28px;
+    text-decoration: none;
+    color: #604e54;
+    font-size: 15px;
+    transition: 0.2s;
+}
+
+.nav-links a:hover {
+    color: #b76f83;
+}
+
+
+/* =========================
+   HOME PAGE
+   ========================= */
+
+.home {
+    width: 88%;
+    max-width: 1250px;
+    margin: auto;
+}
+
+
+/* =========================
+   WELCOME SECTION
+   ========================= */
+
+.welcome {
+    text-align: center;
+    padding: 65px 0 45px;
+}
+
+.small-text {
+    margin: 0 0 10px;
+    color: #b9798b;
+    font-size: 14px;
+    letter-spacing: 1px;
+}
+
+.welcome h1 {
+    margin: 5px 0 12px;
+    font-size: 44px;
+    font-weight: 600;
+    color: #493d38;
+}
+
+.welcome p:last-child {
+    margin: 0;
+    color: #806d73;
+    font-size: 16px;
+}
+
+
+/* =========================
+   PRODUCTS SECTION
+   ========================= */
+
+.products-section {
+    padding-bottom: 70px;
+}
+
+.products-section h2 {
+    text-align: center;
+    margin: 0 0 35px;
+    font-size: 30px;
+    font-weight: 600;
+    color: #493d38;
+}
+
+
+/* =========================
+   PRODUCT GRID
+   ========================= */
+
+.product-grid {
+    display: grid;
+
+    grid-template-columns: repeat(4, 1fr);
+
+    gap: 25px;
+
+    width: 100%;
+}
+
+
+/* =========================
+   PRODUCT CARD
+   ========================= */
+
+.product-card {
+    background-color: #ffffff;
+
+    border-radius: 18px;
+
+    overflow: hidden;
+
+    box-shadow: 0 6px 20px rgba(110, 70, 80, 0.10);
+
+    transition: transform 0.25s ease,
+                box-shadow 0.25s ease;
+}
+
+.product-card:hover {
+    transform: translateY(-6px);
+
+    box-shadow: 0 12px 28px rgba(110, 70, 80, 0.16);
+}
+
+
+/* =========================
+   PRODUCT IMAGE
+   ========================= */
+
+.product-card img {
+    display: block;
+
+    width: 100%;
+    height: 240px;
+
+    object-fit: cover;
+
+    background-color: #f8dce5;
+}
+
+
+/* =========================
+   PRODUCT INFORMATION
+   ========================= */
+
+.product-info {
+    padding: 20px;
+}
+
+.category {
+    margin: 0 0 8px;
+
+    color: #b9798b;
+
+    font-size: 11px;
+
+    font-weight: bold;
+
+    letter-spacing: 1px;
+
+    text-transform: uppercase;
+}
+
+.product-info h3 {
+    margin: 0 0 10px;
+
+    color: #493d38;
+
+    font-size: 18px;
+
+    font-weight: 600;
+}
+
+.description {
+    margin: 0;
+
+    min-height: 42px;
+
+    color: #8b777c;
+
+    font-size: 13px;
+
+    line-height: 1.6;
+}
+
+
+/* =========================
+   PRODUCT BOTTOM
+   ========================= */
+
+.product-bottom {
+    display: flex;
+
+    align-items: center;
+
+    justify-content: space-between;
+
+    margin-top: 20px;
+}
+
+.price {
+    color: #493d38;
+
+    font-size: 18px;
+
+    font-weight: bold;
+}
+
+
+/* =========================
+   ADD TO CART BUTTON
+   ========================= */
+
+.product-bottom button {
+    border: none;
+
+    padding: 10px 15px;
+
+    background-color: #9c6876;
+
+    color: white;
+
+    border-radius: 9px;
+
+    font-size: 13px;
+
+    cursor: pointer;
+
+    transition: 0.2s;
+}
+
+.product-bottom button:hover {
+    background-color: #7f5360;
+}
+
+
+/* =========================================================
+   SIGNUP / LOGIN PAGE
+   ========================================================= */
+
+.signup-container {
+    width: 390px;
+
+    margin: 80px auto;
+
+    padding: 40px;
+
+    background-color: #fff9fb;
+
+    border-radius: 20px;
+
+    box-shadow: 0 8px 30px rgba(110, 70, 80, 0.12);
+
+    text-align: center;
+}
+
+.signup-container h1 {
+    margin: 0 0 10px;
+
+    color: #79545d;
+
+    font-size: 27px;
+}
+
+.signup-container h2 {
+    margin: 15px 0 8px;
+
+    color: #493d38;
+
+    font-size: 22px;
+}
+
+.signup-container > p {
+    color: #8b777c;
+
+    font-size: 14px;
+}
+
+
+/* =========================
+   FORMS
+   ========================= */
+
+.signup-container form {
+    margin-top: 25px;
+
+    text-align: left;
+}
+
+.signup-container label {
+    display: block;
+
+    margin: 15px 0 6px;
+
+    color: #604e54;
+
+    font-size: 14px;
+
+    font-weight: 600;
+}
+
+.signup-container input {
+    width: 100%;
+
+    padding: 12px 13px;
+
+    border: 1px solid #e8cbd4;
+
+    border-radius: 9px;
+
+    background-color: #ffffff;
+
+    color: #493d38;
+
+    font-size: 14px;
+
+    outline: none;
+}
+
+.signup-container input:focus {
+    border-color: #c78899;
+
+    box-shadow: 0 0 0 3px rgba(199, 136, 153, 0.12);
+}
+
+
+/* =========================
+   FORM BUTTON
+   ========================= */
+
+.signup-container button {
+    width: 100%;
+
+    margin-top: 25px;
+
+    padding: 13px;
+
+    border: none;
+
+    border-radius: 9px;
+
+    background-color: #9c6876;
+
+    color: white;
+
+    font-size: 15px;
+
+    font-weight: bold;
+
+    cursor: pointer;
+
+    transition: 0.2s;
+}
+
+.signup-container button:hover {
+    background-color: #7f5360;
+}
+
+
+/* =========================
+   FORM LINKS
+   ========================= */
+
+.signup-container a {
+    color: #a35f74;
+
+    text-decoration: none;
+
+    font-weight: 600;
+}
+
+.signup-container a:hover {
+    text-decoration: underline;
+}
+
+
+/* =========================================================
+   CART PAGE
+   ========================================================= */
+
+.cart-container {
+    width: 90%;
+    max-width: 900px;
+
+    margin: 50px auto;
+
+    padding: 35px;
+
+    background-color: #fff9fb;
+
+    border-radius: 18px;
+
+    box-shadow: 0 6px 25px rgba(110, 70, 80, 0.10);
+}
+
+.cart-container h1 {
+    margin-top: 0;
+
+    color: #493d38;
+
+    text-align: center;
+}
+
+.cart-item {
+    display: flex;
+
+    align-items: center;
+
+    justify-content: space-between;
+
+    padding: 18px 0;
+
+    border-bottom: 1px solid #edd9df;
+}
+
+.cart-item h3 {
+    margin: 0;
+
+    color: #493d38;
+}
+
+.cart-item p {
+    margin: 5px 0;
+
+    color: #8b777c;
+}
+
+.cart-total {
+    margin-top: 25px;
+
+    text-align: right;
+
+    font-size: 20px;
+
+    font-weight: bold;
+}
+
+
+/* =========================
+   CART BUTTONS
+   ========================= */
+
+.cart-button {
+    display: inline-block;
+
+    padding: 11px 18px;
+
+    border: none;
+
+    border-radius: 9px;
+
+    background-color: #9c6876;
+
+    color: white;
+
+    text-decoration: none;
+
+    cursor: pointer;
+}
+
+.cart-button:hover {
+    background-color: #7f5360;
+}
+
+
+/* =========================================================
+   CHECKOUT PAGE
+   ========================================================= */
+
+.checkout-container {
+    width: 90%;
+    max-width: 700px;
+
+    margin: 50px auto;
+
+    padding: 35px;
+
+    background-color: #fff9fb;
+
+    border-radius: 18px;
+
+    box-shadow: 0 6px 25px rgba(110, 70, 80, 0.10);
+}
+
+.checkout-container h1,
+.checkout-container h2 {
+    color: #493d38;
+}
+
+.checkout-container input,
+.checkout-container textarea {
+    width: 100%;
+
+    padding: 12px;
+
+    margin-top: 7px;
+
+    border: 1px solid #e8cbd4;
+
+    border-radius: 8px;
+
+    outline: none;
+
+    font-family: Arial, sans-serif;
+}
+
+.checkout-container textarea {
+    height: 100px;
+
+    resize: vertical;
+}
+
+.checkout-container button {
+    width: 100%;
+
+    margin-top: 20px;
+
+    padding: 13px;
+
+    border: none;
+
+    border-radius: 9px;
+
+    background-color: #9c6876;
+
+    color: white;
+
+    font-size: 15px;
+
+    cursor: pointer;
+}
+
+.checkout-container button:hover {
+    background-color: #7f5360;
+}
+
+
+/* =========================================================
+   RESPONSIVE DESIGN
+   ========================================================= */
+
+/* Laptop / smaller desktop */
+
+@media (max-width: 1100px) {
+
+    .product-grid {
+        grid-template-columns: repeat(3, 1fr);
+    }
+
+}
+
+
+/* Tablet */
+
+@media (max-width: 800px) {
+
+    .product-grid {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .home {
+        width: 92%;
+    }
+
+    .welcome h1 {
+        font-size: 36px;
+    }
+
+}
+
+
+/* Mobile */
+
+@media (max-width: 550px) {
+
+    .navbar {
+        height: auto;
+
+        padding: 18px 5%;
+
+        flex-direction: column;
+
+        gap: 12px;
+    }
+
+    .nav-links a {
+        margin: 0 8px;
+    }
+
+    .product-grid {
+        grid-template-columns: 1fr;
+    }
+
+    .welcome {
+        padding: 40px 0 30px;
+    }
+
+    .welcome h1 {
+        font-size: 32px;
+    }
+
+    .signup-container {
+        width: 90%;
+
+        margin: 40px auto;
+
+        padding: 30px 25px;
+    }
+
+    .cart-container,
+    .checkout-container {
+        width: 92%;
+
+        padding: 25px;
+    }
+
+}
