@@ -1,4 +1,4 @@
-# 🌷 Paper & Petals
+## 🌷 Paper & Petals
 
 Aesthetic stationery shopping website built using **PHP, MySQL, HTML and CSS**.
 
@@ -100,17 +100,20 @@ Create an account and log in to start shopping.
 
 ## 📸 Screenshots
 
-Screenshots of the application can be added here.
 Home Page
-Add screenshot here
+<img width="1470" height="864" alt="Screenshot 2026-10-08 at 1 23 17 AM" src="https://github.com/user-attachments/assets/d85182a4-3756-484c-a903-507e2ddd7bf9" />
+
 Login Page
-Add screenshot here
+<img width="1470" height="868" alt="Screenshot 2026-10-08 at 1 23 38 AM" src="https://github.com/user-attachments/assets/b3bcfb0b-30c6-42ef-b58c-8982b9db6472" />
+
 Product Page
-Add screenshot here
+<img width="1470" height="870" alt="Screenshot 2026-10-08 at 1 25 03 AM" src="https://github.com/user-attachments/assets/8b65e301-75e4-4e9f-82ed-e3c6df39558d" />
+
 Shopping Cart
-Add screenshot here
+<img width="1470" height="866" alt="Screenshot 2026-10-08 at 1 25 41 AM" src="https://github.com/user-attachments/assets/c42391ca-558e-4c40-981c-cc815682f3be" />
+
 Checkout
-Add screenshot here
+<img width="1470" height="868" alt="Screenshot 2026-10-08 at 1 26 11 AM" src="https://github.com/user-attachments/assets/f1615fdc-4614-46b6-8bbb-b89bc9462ed5" />
 
 ---
 
